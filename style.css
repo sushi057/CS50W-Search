@@ -1,6 +1,29 @@
+.body, .html{
+    margin: 0;
+    padding: 0;
+}
+
+.html{
+    background-color: rgb(32, 32, 32);
+}
+
 .header{
-    margin: auto;
     text-align: end;
+}
+
+.main-head li{
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+}
+
+.foot li{
+    display: inline-block;
+    font-size: medium;
+}
+
+.foot li:hover{
+    text-decoration: underline;
 }
 
 a:link{
@@ -14,26 +37,29 @@ a:hover{
 
 .google_search{
     text-align: center;
-    padding-left: 10px;
-}
-
-.buttons{
-    text-align: center;
+    padding-bottom: 0px;
 }
 
 .footer{
+    position: absolute;
+    bottom: 0;
     text-align: center;
+    justify-content: center;
 }
 
-.foot{
-    align-items: 
+.buttons{
+    margin-bottom: 30px;
+}
+
+input[type="submit"]:hover{
+    border: 2px solid black;
 }
 
 input[type="text"]{
-    width: 65%;
+    width: 50%;
     height: 40px;
     border-radius: 25px;
-    
+    margin-bottom: 30px;
 }
 
 input[type="text"]:focus{
@@ -42,4 +68,5 @@ input[type="text"]:focus{
 
 input[type="text"]:hover{
     background-color: whitesmoke;
+a
 }
