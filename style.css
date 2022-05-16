@@ -1,0 +1,54 @@
+.grid{
+    width: 21px;
+    height: 21px;
+}
+
+.favicon{
+    height: 60px;
+    width: 60px; 
+    border: 3px solid gray;
+    border-radius: 80%;
+}
+
+.mic, .search{
+    height: 40px;
+    width: 40px;
+}
+.logo{
+    height: 25%;
+    width: 60%;
+}
+
+.header{
+    margin: auto;
+    text-align: right;
+}
+
+.google_logo{
+    text-align: center;
+}
+
+.google_search{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 65%;
+    border-radius: 15px;
+}
+
+input[type="text"]:focus{
+    border: 3px solid rgb(208, 206, 206)
+}
+
+input[type="submit"]:hover{
+    border: 2px solid gray;
+}
