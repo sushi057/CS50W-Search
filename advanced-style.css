@@ -69,6 +69,15 @@ h3{
 }
 
 input[type="text"] {
-    width: 28em;
+    width: 25em;
     border: 2px solid black;
+}
+
+a:link{
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.search-button{
+    text-align: right;
 }
