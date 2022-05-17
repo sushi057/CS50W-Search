@@ -1,0 +1,27 @@
+.grid{
+    width: 21px;
+    height: 21px;
+}
+
+.favicon{
+    height: 40px;
+    width: 40px; 
+    border: 3px solid gray;
+    border-radius: 80%;
+}
+
+.mic, .search{
+    height: 40px;
+    width: 45px;
+}
+
+.logo{
+    height: 10%;
+    width: 30%;
+}
+
+.google_logo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
