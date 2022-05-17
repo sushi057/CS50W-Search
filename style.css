@@ -48,7 +48,6 @@ a:hover{
     position: relative;
     bottom: 0;
     text-align: center;
-    justify-content: space-evenly;
 }
 
 .buttons{
@@ -64,6 +63,11 @@ input[type="text"]{
     height: 40px;
     border-radius: 25px;
     margin-bottom: 30px;
+    background-image: url(./images/search.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position:10px;
 }
 
 input[type="text"]:focus{
