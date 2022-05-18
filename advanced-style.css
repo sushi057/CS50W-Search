@@ -49,15 +49,32 @@ h3{
     justify-content: space-between;
 }
 
+.left-body{
+
+}
+
+.center-body{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+}
+
+.right-body{
+    display: inline-flex;
+    flex-flow: column ;  
+    align-items:flex-start;
+}
+
+
 #left, #right{
     font-size: 19px;
     font-weight: bold;
 }
 
-.search-form{
+.middle-body{
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .two{
@@ -69,7 +86,7 @@ h3{
 }
 
 input[type="text"] {
-    width: 25em;
+    width: 30em;
     border: 2px solid black;
 }
 
@@ -80,4 +97,9 @@ a:link{
 
 .search-button{
     text-align: right;
+}
+
+.adv-button{
+    display: flex;
+    justify-content: flex-end;
 }
